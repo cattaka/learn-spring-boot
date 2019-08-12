@@ -1,4 +1,6 @@
 package net.cattaka.learnspringboot.exception
 
-class NotFoundException {
+import java.lang.RuntimeException
+
+class NotFoundException : RuntimeException() {
 }
